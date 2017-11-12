@@ -1,4 +1,4 @@
-#include "FilaSequencial.h"
+#include "fila.h"
 #define MAX 6
 
 void criarFila (tFila *f) {
