@@ -1,28 +1,28 @@
 package model;
 
-import factory.EditorApresentacao;
-import factory.EditorPlanilha;
-import factory.EditorTexto;
-import factory.Factory;
+import interfaces.EditorApresentacao;
+import interfaces.EditorPlanilha;
+import interfaces.EditorTexto;
+import interfaces.Suite;
 
-public class MicrosoftFactory implements Factory {
+public class MicrosoftFactory implements Suite {
 
 	@Override
 	public EditorTexto getEditorTexto() {
 		// TODO Auto-generated method stub
-		return null;
+		return new MicrosoftEditorTexto();
 	}
 
 	@Override
 	public EditorPlanilha getEditorPlanilha() {
 		// TODO Auto-generated method stub
-		return null;
+		return new MicrosoftEditorPlanilha();
 	}
 
 	@Override
 	public EditorApresentacao getEditorApresentacao() {
 		// TODO Auto-generated method stub
-		return null;
+		return new MicrosoftEditorApresentacao();
 	}
 
 }

@@ -1,13 +1,12 @@
 package model;
 
-import factory.EditorPlanilha;
+import interfaces.EditorPlanilha;
 
-public class GoogleEditorPlanilha implements EditorPlanilha{
+public class GoogleEditorPlanilha implements EditorPlanilha {
 
 	@Override
-	public void editarPlanilha() {
-		// TODO Auto-generated method stub
-		System.out.println("Editor de Planilha do Google");
-	}
-
+	public void editarArquivo() {
+		System.out.println("Editando arquivo com Google Sheets");
+	}	
+	
 }

@@ -1,13 +1,12 @@
 package model;
 
-import factory.EditorApresentacao;
+import interfaces.EditorApresentacao;
 
 public class GoogleEditorApresentacao implements EditorApresentacao {
 
 	@Override
-	public void editarApresentacao() {
-		// TODO Auto-generated method stub
-		System.out.println("Editor de Apresentação do Google");
+	public void editarArquivo() {
+		System.out.println("Editando com Google ApresentaÃ§Ãµes.");
 	}
 
 }

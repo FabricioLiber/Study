@@ -1,6 +1,6 @@
-package factory;
+package interfaces;
 
-public interface Factory {
+public interface Suite {
 
 	public EditorTexto getEditorTexto();
 	public EditorPlanilha getEditorPlanilha();

@@ -1,13 +1,12 @@
 package model;
 
-import factory.EditorTexto;
+import interfaces.EditorTexto;
 
 public class MicrosoftEditorTexto implements EditorTexto {
 
 	@Override
-	public void editarTexto() {
-		// TODO Auto-generated method stub
-		System.out.println("Editor de Texto da Microsoft");
+	public void editarArquivo() {
+		System.out.println("Editando arquivo com Microsoft Word.");		
 	}
 
 }

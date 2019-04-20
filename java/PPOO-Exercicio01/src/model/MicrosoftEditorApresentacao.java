@@ -1,13 +1,12 @@
 package model;
 
-import factory.EditorApresentacao;
+import interfaces.EditorApresentacao;
 
-public class MicrosoftEditorApresentacao implements EditorApresentacao{
+public class MicrosoftEditorApresentacao implements EditorApresentacao {
 
 	@Override
-	public void editarApresentacao() {
-		// TODO Auto-generated method stub
-		System.out.println("Editor de Apresentação da Microsoft");
+	public void editarArquivo() {
+		System.out.println("Editando com Microsoft Powerpoint.");
 	}
 
 }

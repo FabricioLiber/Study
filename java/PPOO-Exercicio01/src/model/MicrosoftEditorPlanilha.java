@@ -1,13 +1,12 @@
 package model;
 
-import factory.EditorPlanilha;
+import interfaces.EditorPlanilha;
 
 public class MicrosoftEditorPlanilha implements EditorPlanilha {
 
 	@Override
-	public void editarPlanilha() {
-		// TODO Auto-generated method stub
-		System.out.println("Editor de Planilha da Microsoft");
-	}
+	public void editarArquivo() {
+		System.out.println("Editando arquivo com Microsoft Excel.");
+	}	
 	
 }
